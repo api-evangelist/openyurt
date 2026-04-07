@@ -9,42 +9,42 @@ description: >-
 url: https://openyurt.io
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Edge Computing
-- Kubernetes
-- IoT
-- Cloud-Edge
-- Cloud Native
-- Incubating
+  - Cloud Native
+  - Cloud-Edge
+  - Edge Computing
+  - Incubating
+  - IoT
+  - Kubernetes
 created: '2026-03-16'
 modified: '2026-03-16'
 specificationVersion: '0.19'
 type: Index
 apis:
-- aid: openyurt:openyurt-api
-  name: OpenYurt Edge Management API
-  description: >-
-    OpenYurt extends Kubernetes with CRDs for edge computing including
-    NodePool for grouping edge nodes, YurtAppSet for deploying applications
-    across node pools, YurtAppDaemon for pool-scoped daemon workloads, and
-    Raven for cross-edge-cloud networking. The YurtHub component provides
-    local caching and autonomy when edge nodes lose cloud connectivity.
-  humanURL: https://openyurt.io/docs/
-  properties:
-  - type: Documentation
-    url: https://openyurt.io/docs/
-  tags:
-  - Edge Management
-  - Node Pools
-  - Autonomy
+  - aid: openyurt:openyurt-api
+    name: OpenYurt Edge Management API
+    description: >-
+      OpenYurt extends Kubernetes with CRDs for edge computing including
+      NodePool for grouping edge nodes, YurtAppSet for deploying applications
+      across node pools, YurtAppDaemon for pool-scoped daemon workloads, and
+      Raven for cross-edge-cloud networking. The YurtHub component provides
+      local caching and autonomy when edge nodes lose cloud connectivity.
+    humanURL: https://openyurt.io/docs/
+    properties:
+      - type: Documentation
+        url: https://openyurt.io/docs/
+    tags:
+      - Autonomy
+      - Edge Management
+      - Node Pools
 common:
-- type: Documentation
-  name: OpenYurt Documentation
-  description: Official OpenYurt documentation.
-  url: https://openyurt.io/docs/
-- type: GitHubOrg
-  name: OpenYurt GitHub
-  description: Source code repository.
-  url: https://github.com/openyurtio/openyurt
+  - type: Documentation
+    name: OpenYurt Documentation
+    description: Official OpenYurt documentation.
+    url: https://openyurt.io/docs/
+  - type: GitHubOrg
+    name: OpenYurt GitHub
+    description: Source code repository.
+    url: https://github.com/openyurtio/openyurt
 maintainers:
-- FN: Kin Lane
-  email: kin@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
