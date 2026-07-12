@@ -37,6 +37,8 @@ apis:
       - Edge Management
       - Node Pools
 common:
+  - type: DomainSecurity
+    url: security/openyurt-domain-security.yml
   - type: Documentation
     name: OpenYurt Documentation
     description: Official OpenYurt documentation.
@@ -45,6 +47,8 @@ common:
     name: OpenYurt GitHub
     description: Source code repository.
     url: https://github.com/openyurtio/openyurt
+  - url: https://openyurt.io/blog/rss.xml
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
