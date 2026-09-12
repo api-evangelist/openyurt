@@ -67,6 +67,8 @@ apis:
       - Edge Management
       - Node Pools
 common:
+  - type: Website
+    url: https://www.openyurt.io/
   - type: DomainSecurity
     url: security/openyurt-domain-security.yml
   - type: Documentation
