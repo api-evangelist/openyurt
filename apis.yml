@@ -67,6 +67,12 @@ apis:
       - Edge Management
       - Node Pools
 common:
+  - type: Plans
+    url: plans/openyurt-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/openyurt-rate-limits.yml
+  - type: FinOps
+    url: finops/openyurt-finops.yml
   - type: Website
     url: https://www.openyurt.io/
   - type: DomainSecurity
